@@ -1,0 +1,35 @@
+/*
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    background-color: lightcyan;
+    font-size: 24px;
+}
+
+#Header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: lightcyan;
+    font-size: 24px;
+}
+
+#GameBoardOne {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: solid;
+    border-width: 4px;
+    border-color: black;
+    background-color: lightblue;
+}
+
+#GameBoardTwo {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: solid;
+    border-width: 4px;
+    border-color: black;
+    background-color: lightblue;
+}
